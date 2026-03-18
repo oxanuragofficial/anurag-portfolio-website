@@ -54,7 +54,7 @@ function Hero() {
       <div className="hero-content">
         <p className="greeting">Hi, I'm</p>
         <h1 className="hero-title">
-          <span className="name">Aman Raj</span>
+          <span className="name">Anurag Kumar</span>
         </h1>
         <h2 className="hero-subtitle">Full Stack Developer | AI/ML Enthusiast | Trainer</h2>
         <p className="hero-description">
@@ -91,7 +91,7 @@ function Hero() {
           {!imageError && (
             <img 
               src={imageSrc}
-              alt="Aman Raj - Full Stack Developer" 
+              alt="Anurag Kumar - Full Stack Developer" 
               style={{ display: 'block' }}
               onError={handleImageError}
               onLoad={(e) => {
@@ -120,7 +120,7 @@ function Hero() {
       {/* Social Links */}
       <div className="hero-social">
         <a 
-          href="https://github.com/aman-0402" 
+          href="https://github.com/oxanuragofficial" 
           target="_blank" 
           rel="noopener noreferrer"
           aria-label="GitHub Profile"
@@ -130,7 +130,7 @@ function Hero() {
           </svg>
         </a>
         <a 
-          href="https://www.linkedin.com/in/aman-raj-081905211/" 
+          href="https://www.linkedin.com/in/oxanuragofficial/" 
           target="_blank" 
           rel="noopener noreferrer"
           aria-label="LinkedIn Profile"
@@ -140,7 +140,7 @@ function Hero() {
           </svg>
         </a>
         <a 
-          href="https://twitter.com/Code_Like_Aman" 
+          href="https://x.com/hindvansi" 
           target="_blank" 
           rel="noopener noreferrer"
           aria-label="Twitter Profile"
@@ -150,7 +150,7 @@ function Hero() {
           </svg>
         </a>
         <a 
-          href="mailto:think.like.ai.aman@gmail.com" 
+          href="mailto:hindvansianurag@gmail.com" 
           aria-label="Gmail"
         >
           <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">

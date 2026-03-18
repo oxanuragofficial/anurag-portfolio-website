@@ -5,127 +5,67 @@ function Projects() {
   const [filter, setFilter] = useState('all');
 
   const projects = [
-    {
-      id: 1,
-      title: 'AI Image Generator',
-      category: 'aiml',
-      description: 'Advanced text-to-image generation platform using Stable Diffusion with custom training capabilities.',
-      technologies: ['Python', 'TensorFlow', 'FastAPI', 'React'],
-      image: 'https://via.placeholder.com/400x300/ec4899/ffffff?text=AI+Image+Gen',
-      github: '#',
-      demo: '#'
-    },
-    {
-      id: 2,
-      title: 'Sentiment Analysis Tool',
-      category: 'aiml',
-      description: 'Real-time sentiment analysis for social media using NLP and transformer models.',
-      technologies: ['PyTorch', 'BERT', 'Flask', 'MongoDB'],
-      image: 'https://via.placeholder.com/400x300/8b5cf6/ffffff?text=Sentiment+AI',
-      github: '#',
-      demo: '#'
-    },
-    {
-      id: 3,
-      title: 'E-Learning Platform',
-      category: 'fullstack',
-      description: 'Complete learning management system with video streaming, quizzes, and progress tracking.',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'AWS'],
-      image: 'https://via.placeholder.com/400x300/3b82f6/ffffff?text=E-Learning',
-      github: '#',
-      demo: '#'
-    },
-    {
-      id: 4,
-      title: 'ChatBot Framework',
-      category: 'aiml',
-      description: 'Intelligent conversational AI with context awareness and multi-language support.',
-      technologies: ['Python', 'OpenAI', 'LangChain', 'Redis'],
-      image: 'https://via.placeholder.com/400x300/06b6d4/ffffff?text=ChatBot+AI',
-      github: '#',
-      demo: '#'
-    },
-    {
-      id: 5,
-      title: 'Interactive Cookbook',
-      category: 'ebook',
-      description: 'Digital cookbook with step-by-step recipes, nutritional info, and meal planning features.',
-      technologies: ['Next.js', 'Tailwind', 'Markdown', 'PDF.js'],
-      image: 'https://via.placeholder.com/400x300/f59e0b/ffffff?text=Cookbook',
-      github: '#',
-      demo: '#'
-    },
-    {
-      id: 6,
-      title: 'Tech Blog Portfolio',
-      category: 'website',
-      description: 'Modern blog platform with dark mode, search functionality, and responsive design.',
-      technologies: ['React', 'CSS3', 'Framer Motion'],
-      image: 'https://via.placeholder.com/400x300/10b981/ffffff?text=Tech+Blog',
-      github: '#',
-      demo: '#'
-    },
-    {
-      id: 7,
-      title: 'Social Media Dashboard',
-      category: 'fullstack',
-      description: 'Full-featured social platform with posts, comments, real-time notifications, and user profiles.',
-      technologies: ['React', 'Express', 'Socket.io', 'MySQL'],
-      image: 'https://via.placeholder.com/400x300/6366f1/ffffff?text=Social+App',
-      github: '#',
-      demo: '#'
-    },
-    {
-      id: 8,
-      title: 'Predictive Analytics Engine',
-      category: 'aiml',
-      description: 'Machine learning platform for forecasting sales trends using historical data analysis.',
-      technologies: ['Scikit-learn', 'Pandas', 'Django', 'D3.js'],
-      image: 'https://via.placeholder.com/400x300/a855f7/ffffff?text=Predictive+ML',
-      github: '#',
-      demo: '#'
-    },
-    {
-      id: 9,
-      title: 'Programming Guide Ebook',
-      category: 'ebook',
-      description: 'Comprehensive JavaScript guide with interactive code examples and downloadable PDF.',
-      technologies: ['MDX', 'React', 'CodeMirror', 'EPUB.js'],
-      image: 'https://via.placeholder.com/400x300/ef4444/ffffff?text=JS+Guide',
-      github: '#',
-      demo: '#'
-    },
-    {
-      id: 10,
-      title: 'E-Commerce Marketplace',
-      category: 'fullstack',
-      description: 'Multi-vendor marketplace with payment gateway, inventory management, and analytics dashboard.',
-      technologies: ['MERN Stack', 'Stripe', 'JWT', 'Cloudinary'],
-      image: 'https://via.placeholder.com/400x300/f97316/ffffff?text=Marketplace',
-      github: '#',
-      demo: '#'
-    },
-    {
-      id: 11,
-      title: 'Corporate Landing Page',
-      category: 'website',
-      description: 'Professional business website with animations, contact forms, and SEO optimization.',
-      technologies: ['HTML5', 'CSS3', 'JavaScript', 'GSAP'],
-      image: 'https://via.placeholder.com/400x300/14b8a6/ffffff?text=Corporate+Site',
-      github: '#',
-      demo: '#'
-    },
-    {
-      id: 12,
-      title: 'Fitness Tracker Ebook',
-      category: 'ebook',
-      description: 'Interactive fitness guide with workout plans, progress tracking, and nutrition tips.',
-      technologies: ['Gatsby', 'GraphQL', 'Chart.js', 'PDF Gen'],
-      image: 'https://via.placeholder.com/400x300/84cc16/ffffff?text=Fitness+Guide',
-      github: '#',
-      demo: '#'
-    }
-  ];
+  {
+    id: 1,
+    title: 'Personal Portfolio Website',
+    category: 'website',
+    description: 'Modern responsive portfolio website to showcase my skills, projects, and experience.',
+    technologies: ['React', 'CSS', 'JavaScript'],
+    image: '/images/portfolio.png',
+    github: '#',
+    demo: '#'
+  },
+  {
+    id: 2,
+    title: 'Business Website (Bharat Webstudio)',
+    category: 'website',
+    description: 'Professional business website for showcasing web development services and client projects.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    image: '/images/business.png',
+    github: '#',
+    demo: '#'
+  },
+  {
+    id: 3,
+    title: 'Responsive Landing Page',
+    category: 'website',
+    description: 'Fully responsive landing page with modern UI design and smooth user experience.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+    image: '/images/landing.png',
+    github: '#',
+    demo: '#'
+  },
+  {
+    id: 4,
+    title: 'Basic React App',
+    category: 'frontend',
+    description: 'React-based application demonstrating components, props, and state management.',
+    technologies: ['React', 'JavaScript'],
+    image: '/images/react-app.png',
+    github: '#',
+    demo: '#'
+  },
+  {
+    id: 5,
+    title: 'To-Do List App',
+    category: 'frontend',
+    description: 'Task management app with add, delete, and mark complete features.',
+    technologies: ['JavaScript', 'HTML', 'CSS'],
+    image: '/images/todo.png',
+    github: '#',
+    demo: '#'
+  },
+  {
+    id: 6,
+    title: 'Calculator App',
+    category: 'frontend',
+    description: 'Simple calculator application for performing basic arithmetic operations.',
+    technologies: ['JavaScript', 'HTML', 'CSS'],
+    image: '/images/calculator.png',
+    github: '#',
+    demo: '#'
+  }
+];
 
   const filteredProjects = filter === 'all' 
     ? projects 
